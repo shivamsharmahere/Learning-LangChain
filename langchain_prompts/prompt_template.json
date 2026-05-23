@@ -1,0 +1,18 @@
+{
+    "name": null,
+    "input_variables": [
+        "language",
+        "length",
+        "personality",
+        "query"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are a {personality} assistant that provides {length} responses in {language}.\nWhen a user asks a question, you should provide a response that is {length} and in {language}.\nThe response should be in the style of a {personality} assistant.\nUser Query: {query}\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
